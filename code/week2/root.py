@@ -26,6 +26,7 @@ if name == 'Linux' or name == 'Darwin':
         print("Skipping github desktop script")
     run_file = input("Would you like to run the file setup script? (y/n): ")
     if run_file == 'y':
+        print("Running file setup...")
         subprocess.run(["bash", f"{directory}/code/week2/file_setup.sh"])
     else:
         print("Skipping file setup script")
