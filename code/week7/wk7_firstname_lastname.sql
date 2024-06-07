@@ -9,6 +9,7 @@ USE v_art;
 --    Write what the insert statement would look like that 
 --    would run as the manager adds a new artist to the system. 
 --    (HINT: assign this artist a primary key that is next in sequence for the Artist table)
+--    DO NOT RELY ON AUTO_INCREMENT!
 -- ------------------------------------------------------------------------------------
 
 
@@ -16,6 +17,7 @@ USE v_art;
 -- 2. The manager wants to list all the artists sorted by the last name of the artist.
 --    Write the query that would allow the 7 columns of values 
 --    (all but the primary key) to show up alphabetically by the last name. 
+--    (SELECT * will not work for this query!) 
 -- ------------------------------------------------------------------------------------
 
 
@@ -36,9 +38,9 @@ USE v_art;
 
 
 
--- ~
+
 USE bike;
--- ~
+
 -- ------------------------------------------------------------------------------------
 -- 5.  There is a product demonstration and bike race planned in Oakland, California 
 --     and you'd like to text each of your customers from that city
