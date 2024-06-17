@@ -157,8 +157,8 @@ FROM magazine m
 -- Common Errors & How to Fix Them
 -- *********************************
 
--- Use artwork
-USE artwork;
+-- Use v_art
+USE v_art;
 -- Common Error: missing the table alias. Throws an Unknown column error. Add the alias 'aw' after artwork
 -- Show all titles with their period and keyword.
 SELECT     title
